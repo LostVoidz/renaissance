@@ -1,0 +1,32 @@
+.cart-cards {
+  display: grid;
+  grid-template-columns: repeat(1);
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 0px;
+  width: 900px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.thumbnail-img {
+  width: 200px;
+}
+
+.horizontal-item {
+  font-size: 0.75em;
+  border: 0px;
+}
+
+.list-a {
+  color: black;
+  text-decoration: none;
+}
+
+.list-a:hover {
+  color: gray;
+  text-decoration: underline;
+}

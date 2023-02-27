@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Renaissance Artwork - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="nav-placeholder"></div>
+
+    <div class="m-5 text-left">
+      <h2 class="text-center">Register Account</h2>
+      <div class="" id="error"></div>
+      <p></p>
+      <div class="row m-2">
+        <div class="col">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name (John)" value="" required="">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="middleName" placeholder="Middle Name (Optional, J.)" value="" required="">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="lastName" placeholder="Last Name (Doe)" value="" required="">
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col">
+          <input type="text" class="form-control" id="email" placeholder="Email (johndoe@example.com)" value="" required="">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="emailConf" placeholder="Confirm Email" value="" required="">
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col">
+          <input type="text" class="form-control" id="password" placeholder="Password (123)" value="" required="">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="passwordConf" placeholder="Confirm Password" value="" required="">
+        </div>
+      </div>
+      <div class="row m-2">
+          <div class="col">
+              <input type="text" class="form-control" id="username" placeholder="Username (johndoe2022)" value="" required="">
+          </div>
+          <div class="col">
+
+            <select class="custom-select h-100 w-100 btn btn-light" id="type" required="">
+              <option>Customer</option>
+              <option>Artist</option>
+              <option>Art Dealer</option>
+              <option>Other</option>
+            </select>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="m-5 text-left">
+      <p></p>
+      <div class="row m-2">
+        <div class="col">
+            <input type="text" class="form-control" id="address" placeholder="Address (123 Main St)" value="" required="">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="city" placeholder="City / State (New York, New York)" value="" required="">
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col">
+          <input type="text" class="form-control" id="country" placeholder="Country (United States)" value="" required="">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" id="zip" placeholder="Zip Code (1000)" value="" required="">
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-2">
+      <div class="col">
+
+        <input type="text" class="form-control" id="image" placeholder="Image (TEMP, FileSelector)" value="" required="">
+
+      </div>
+  </div>
+
+    <div class="text-center">
+      <button class="btn btn-light btn-lg btn-block" id="register">Register Account</button>
+    </div>
+
+  </body>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+    <script src="/js/register.js"></script>
+  </body>
+</html>

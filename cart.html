@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Renaissance Artwork - Shop Original Art</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet" type="text/css">
+    <script src="/js/cart.js" defer></script>
+  </head>
+  <body>
+
+    <div id="nav-placeholder"></div>
+
+    <div class="cart-cards" data-cart-container>
+
+    </div>
+
+    <div class="text-center">
+      <button type="button" class="btn btn-light checkout btn-lg" id="checkout">Checkout</button>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <template data-cart-template>
+      <div class="card">
+        <div class="row">
+          <div class="col">
+            <img src="product.img" class="thumbnail-img" data-img>
+          </div>
+          <div class="col">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="product.link" class="list-a" data-link><div data-title>Title</div></a></li>
+              <li class="list-group-item"><div data-price>Price</div></li>
+              <li class="list-group-item"><div data-artist>Artist</div></li>
+              <li class="list-group-item"><div data-seller>Seller</div></li>
+              <li class="list-group-item"></li>
+            </ul>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item horizontal-item"><a class="list-a" href="#" onclick="" id="wish-text-btn" data-wish>Wishlist</a></li>
+              <li class="list-group-item horizontal-item"><a class="list-a" href="#" onclick="" id="delete-purchase-btn" data-del>Delete</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/init.js"></script>
+    <script src="/js/manageProduct.js"></script>
+    <script src="/js/checkoutcart.js"></script>
+  </body>
+</html>

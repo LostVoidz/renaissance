@@ -1,0 +1,53 @@
+.carousel-title {
+  font-size: 100px;
+  font-weight: bolder;
+  color: black;
+}
+
+.carousel-link {
+  text-decoration: none;
+  color: black;
+}
+
+.carousel-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.carousel-link-invert {
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-link-invert:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.container-fluid.card {
+  height: 750px;
+}
+
+.img-fluid.thumbnail-img {
+  max-height: 500px;
+  margin-top: 10px;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.overflow {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

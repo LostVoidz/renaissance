@@ -1,0 +1,30 @@
+.container-fluid.card {
+  height: 375px;
+}
+
+.img-fluid.thumbnail-img {
+  margin-top: 20px;
+  max-height: 150px;
+  max-width: 100px;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.description {
+  font-size: 0.75em;
+
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.search-bar {
+  margin: 10px 10px 10px 10px;
+}

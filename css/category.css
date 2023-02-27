@@ -1,0 +1,25 @@
+.container-fluid.card {
+  height: 750px;
+}
+
+.img-fluid.thumbnail-img {
+  max-height: 500px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.description {
+  font-size: 0.75em;
+
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
